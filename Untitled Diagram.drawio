@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T03:38:35.652Z" agent="5.0 (X11)" etag="25pGLOaRT4CUFaBFOSS3" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-11T03:46:33.248Z" agent="5.0 (X11)" etag="Mm0ImLWYiv0bXhjD8Uw3" version="14.9.6" type="github">
   <diagram id="TwaOmYkCBFDTPxU2G0qU" name="Page-1">
     <mxGraphModel dx="813" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,13 +26,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ba_fHNqHWJrxfKj6jcDo-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="370" width="410" height="170" as="geometry" />
+          <mxGeometry x="99" y="400" width="410" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-16" value="&lt;div&gt;每一个机器人的路径：从初始位置到目标位置所经过的各个路径点信息&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;每一个路径点的信息包含：对应的坐标值，到达路径点的时间信息&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;两个相邻路径点包含：Ａ-&amp;gt;B　Ａ-&amp;gt;A 等待或者移动两种模式&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="99" y="650" width="410" height="170" as="geometry" />
         </mxCell>
         <mxCell id="Ba_fHNqHWJrxfKj6jcDo-18" value="输出信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="600" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-19" value="CBS多机调度框架" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99" y="350" width="69" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

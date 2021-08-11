@@ -1,35 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T03:24:47.588Z" agent="5.0 (X11)" etag="llg5O4zNPxUO9PnD8stY" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-11T03:38:35.652Z" agent="5.0 (X11)" etag="25pGLOaRT4CUFaBFOSS3" version="14.9.6" type="github">
   <diagram id="TwaOmYkCBFDTPxU2G0qU" name="Page-1">
-    <mxGraphModel dx="1594" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ba_fHNqHWJrxfKj6jcDo-1" target="Ba_fHNqHWJrxfKj6jcDo-5">
+        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-9" value="输入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ba_fHNqHWJrxfKj6jcDo-10" target="Ba_fHNqHWJrxfKj6jcDo-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-1" value="" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=2;hachureGap=8;fillColor=#990000;fillStyle=dots;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="650" width="120" height="60" as="geometry" />
+        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="410" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ba_fHNqHWJrxfKj6jcDo-2" target="Ba_fHNqHWJrxfKj6jcDo-3">
+        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-11" value="地图信息(loadmap)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="187.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-12" value="&lt;div&gt;任务信息&lt;/div&gt;&lt;div&gt;(机器人的初始位置和目标位置)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="190" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-13" value="&lt;div&gt;config&lt;/div&gt;&lt;div&gt;(算法所需要的参数信息)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="190" width="100" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ba_fHNqHWJrxfKj6jcDo-14" target="Ba_fHNqHWJrxfKj6jcDo-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-2" value="开始测试" style="ellipse;shape=doubleEllipse;margin=3;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="180" y="210" width="100" height="40" as="geometry" />
+        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="370" width="410" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ba_fHNqHWJrxfKj6jcDo-3" target="Ba_fHNqHWJrxfKj6jcDo-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99" y="650" width="410" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-3" value="应用正确？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="310" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-5" value="是否存在问题" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="480" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-8" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;" edge="1" parent="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="360" y="540" as="sourcePoint" />
-            <mxPoint x="460" y="440" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Ba_fHNqHWJrxfKj6jcDo-18" value="输出信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="600" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

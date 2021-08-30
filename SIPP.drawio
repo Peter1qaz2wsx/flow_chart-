@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-30T03:35:44.132Z" agent="5.0 (X11)" etag="V9j4ld1eS-JYDg7t9AhE" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-30T06:22:26.795Z" agent="5.0 (X11)" etag="TVIaHpWBPvpyNz-fYpDr" version="14.9.6" type="github">
   <diagram id="e655tog_qIfLLv0GMpIh" name="Page-1">
     <mxGraphModel dx="1956" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,8 +84,14 @@
         <mxCell id="Dc8rIp4SgCtgs9jUnkT4-32" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-520" y="600" width="40" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="Dc8rIp4SgCtgs9jUnkT4-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dc8rIp4SgCtgs9jUnkT4-34" target="Dc8rIp4SgCtgs9jUnkT4-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Dc8rIp4SgCtgs9jUnkT4-34" value="add_collision_interval" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-750" y="770" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc8rIp4SgCtgs9jUnkT4-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dc8rIp4SgCtgs9jUnkT4-35" target="Dc8rIp4SgCtgs9jUnkT4-53">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Dc8rIp4SgCtgs9jUnkT4-35" value="add_move_constraint" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-570" y="770" width="146" height="60" as="geometry" />
@@ -95,6 +101,15 @@
         </mxCell>
         <mxCell id="Dc8rIp4SgCtgs9jUnkT4-46" value="&lt;div&gt;move&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-490" y="730" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc8rIp4SgCtgs9jUnkT4-49" value="&lt;div&gt;保存在 “collision_intervals”中&lt;/div&gt;&lt;div&gt;，并且按照时间排序，保存的是&lt;/div&gt;&lt;div&gt;不能通行的时间间隔&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-767" y="910" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc8rIp4SgCtgs9jUnkT4-53" value="保存“constraints”容器中" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-560.5" y="910" width="127" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc8rIp4SgCtgs9jUnkT4-55" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-weight: normal ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;std&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;map&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;std&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;pair&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;gt;, &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;std&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;vector&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;Move&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4&quot;&gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;constraints&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="990" width="440" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

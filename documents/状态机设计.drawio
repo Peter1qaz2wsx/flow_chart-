@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-17T07:58:45.569Z" agent="5.0 (X11)" etag="hOIsgUqJGiVNgXvzG19h" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-17T08:54:03.665Z" agent="5.0 (X11)" etag="7oS8AYrnDRbcirgOg1oT" version="15.2.9" type="github" pages="2">
   <diagram id="9fSyIhTfwZy8_oy5fgW9" name="Page-1">
-    <mxGraphModel dx="658" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="748" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,8 +22,16 @@
         <mxCell id="qDxuMMK1ASLJ5tELzvt4-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qDxuMMK1ASLJ5tELzvt4-3" target="qDxuMMK1ASLJ5tELzvt4-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="JFUP2v7yk-JefAY3bPmS-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qDxuMMK1ASLJ5tELzvt4-3" target="JFUP2v7yk-JefAY3bPmS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qDxuMMK1ASLJ5tELzvt4-3" value="nav" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="328.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JFUP2v7yk-JefAY3bPmS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qDxuMMK1ASLJ5tELzvt4-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qDxuMMK1ASLJ5tELzvt4-4" value="stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="520" width="90" height="30" as="geometry" />
@@ -144,13 +152,13 @@
         <mxCell id="qDxuMMK1ASLJ5tELzvt4-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.458;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qDxuMMK1ASLJ5tELzvt4-64" target="qDxuMMK1ASLJ5tELzvt4-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qDxuMMK1ASLJ5tELzvt4-64" value="马氏距离小于5m" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-64" value="曼哈顿距离小于5m" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="1530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qDxuMMK1ASLJ5tELzvt4-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qDxuMMK1ASLJ5tELzvt4-65" target="qDxuMMK1ASLJ5tELzvt4-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qDxuMMK1ASLJ5tELzvt4-65" value="欧式距离小于2m，或者任一个robot距离某一个目标点的马氏距离小于5m" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-65" value="欧式距离小于2m，或者任一个robot距离某一个目标点的曼哈顿距离小于5m" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="316.5" y="1530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qDxuMMK1ASLJ5tELzvt4-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.461;entryY=-0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qDxuMMK1ASLJ5tELzvt4-66" target="qDxuMMK1ASLJ5tELzvt4-68">
@@ -175,6 +183,123 @@
           <mxGeometry x="250" y="423" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qDxuMMK1ASLJ5tELzvt4-74" value="当前路径是否存在stop动作" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="2050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFUP2v7yk-JefAY3bPmS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JFUP2v7yk-JefAY3bPmS-1" target="qDxuMMK1ASLJ5tELzvt4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFUP2v7yk-JefAY3bPmS-1" value="task完成" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="313.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFUP2v7yk-JefAY3bPmS-5" value="&lt;div&gt;stop时间结束&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="450" width="90" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7LW2NvPQEGOA-iUj2UVO" name="Page-2">
+    <mxGraphModel dx="960" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="NrLrj79_bSl4Yxio886D-0" />
+        <mxCell id="NrLrj79_bSl4Yxio886D-1" parent="NrLrj79_bSl4Yxio886D-0" />
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NrLrj79_bSl4Yxio886D-1" source="iOkQ1qD1qgaQ_Q-xitg9-2" target="iOkQ1qD1qgaQ_Q-xitg9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="NrLrj79_bSl4Yxio886D-1" source="iOkQ1qD1qgaQ_Q-xitg9-2" target="iOkQ1qD1qgaQ_Q-xitg9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-2" value="function2" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
+          <mxGeometry x="211" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NrLrj79_bSl4Yxio886D-1" source="iOkQ1qD1qgaQ_Q-xitg9-4" target="iOkQ1qD1qgaQ_Q-xitg9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-4" value="和当前robot欧氏距离小于1.5m，运行方向相同并且在当先机器人前面的路径上" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
+          <mxGeometry x="20" y="710" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NrLrj79_bSl4Yxio886D-1" source="iOkQ1qD1qgaQ_Q-xitg9-6" target="iOkQ1qD1qgaQ_Q-xitg9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-6" value="否" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeWidth=1;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
+          <mxGeometry x="231" y="850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-7" value="返回fasle, 状态机跳转到stop" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=1;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
+          <mxGeometry x="480" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NrLrj79_bSl4Yxio886D-1" source="iOkQ1qD1qgaQ_Q-xitg9-9" target="iOkQ1qD1qgaQ_Q-xitg9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-9" value="遍历所有robot，获得和当前robot的欧氏距离小于5的robots的list1" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=1;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
+          <mxGeometry x="211" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-10" value="是" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
+          <mxGeometry x="370" y="710" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NrLrj79_bSl4Yxio886D-1" source="iOkQ1qD1qgaQ_Q-xitg9-12" target="iOkQ1qD1qgaQ_Q-xitg9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-12" value="通过list1获取和list1中的任意一个robot欧式距离小于5m的robots，加上list1和当前robot，得到list2" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=1;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
+          <mxGeometry x="190.5" y="1160" width="161" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-13" value="&lt;div align=&quot;left&quot;&gt;遍历list2中任意两个欧式距离小于5的robot，通过未来一段轨迹判断是对向还是相向&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=1;align=left;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
+          <mxGeometry x="195.5" y="1320" width="151" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="NrLrj79_bSl4Yxio886D-1" source="iOkQ1qD1qgaQ_Q-xitg9-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="NrLrj79_bSl4Yxio886D-1" source="iOkQ1qD1qgaQ_Q-xitg9-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-16" value="" style="line;strokeWidth=1;html=1;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
+          <mxGeometry x="186.5" y="1470" width="160" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.529;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="NrLrj79_bSl4Yxio886D-1" source="iOkQ1qD1qgaQ_Q-xitg9-18" target="iOkQ1qD1qgaQ_Q-xitg9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-18" value="" style="line;strokeWidth=1;direction=south;html=1;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
+          <mxGeometry x="266" y="1395" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-19" value="对向" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
+          <mxGeometry x="200" y="1450" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-20" value="相向" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
+          <mxGeometry x="310" y="1450" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.458;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="NrLrj79_bSl4Yxio886D-1" source="iOkQ1qD1qgaQ_Q-xitg9-22" target="iOkQ1qD1qgaQ_Q-xitg9-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-22" value="曼哈顿距离小于5m" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
+          <mxGeometry x="100" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NrLrj79_bSl4Yxio886D-1" source="iOkQ1qD1qgaQ_Q-xitg9-24" target="iOkQ1qD1qgaQ_Q-xitg9-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-24" value="欧式距离小于2m，或者任一个robot距离某一个目标点的曼哈顿距离小于5m" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
+          <mxGeometry x="316.5" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.461;entryY=-0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="NrLrj79_bSl4Yxio886D-1" source="iOkQ1qD1qgaQ_Q-xitg9-26" target="iOkQ1qD1qgaQ_Q-xitg9-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-26" value="&lt;div&gt;判断存在冲突：&lt;/div&gt;&lt;div&gt;AA&#39;_m &amp;gt; AB&#39;_m and&lt;/div&gt;&lt;div&gt;BB&#39;_m &amp;gt; BA&#39;_m&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=1;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
+          <mxGeometry x="316.5" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NrLrj79_bSl4Yxio886D-1" source="iOkQ1qD1qgaQ_Q-xitg9-28" target="iOkQ1qD1qgaQ_Q-xitg9-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-28" value="list2中的信息和停止机器人的信息输入，调用多机调度算法" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
+          <mxGeometry x="165" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NrLrj79_bSl4Yxio886D-1" source="iOkQ1qD1qgaQ_Q-xitg9-30" target="iOkQ1qD1qgaQ_Q-xitg9-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-30" value="获取当前机器人的路径" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=1;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
+          <mxGeometry x="165" y="1910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iOkQ1qD1qgaQ_Q-xitg9-31" value="当前路径是否存在stop动作" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=1;" vertex="1" parent="NrLrj79_bSl4Yxio886D-1">
           <mxGeometry x="165" y="2050" width="120" height="60" as="geometry" />
         </mxCell>
       </root>

@@ -1,1 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2021-09-17T02:57:40.357Z" agent="5.0 (X11)" version="15.2.9" etag="qRu-WL8_Q9M7s2y3Ylad" type="github"><diagram id="9fSyIhTfwZy8_oy5fgW9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-17T07:00:02.070Z" agent="5.0 (X11)" etag="OnY_ZCGf6vfqi8So6Uib" version="15.2.9" type="github">
+  <diagram id="9fSyIhTfwZy8_oy5fgW9" name="Page-1">
+    <mxGraphModel dx="794" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="qDxuMMK1ASLJ5tELzvt4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345.0344827586207" y="160" as="sourcePoint" />
+            <mxPoint x="247.5" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qDxuMMK1ASLJ5tELzvt4-1" target="qDxuMMK1ASLJ5tELzvt4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-1" value="idle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368" y="140" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-3" value="nav" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368" y="328.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-4" value="stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368" y="530" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qDxuMMK1ASLJ5tELzvt4-5" target="qDxuMMK1ASLJ5tELzvt4-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="200" />
+              <mxPoint x="248" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-5" value="task" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qDxuMMK1ASLJ5tELzvt4-6" target="qDxuMMK1ASLJ5tELzvt4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-6" value="全局路径规划" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="240" width="105" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qDxuMMK1ASLJ5tELzvt4-9" target="qDxuMMK1ASLJ5tELzvt4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-9" value="需要考虑当前静止的机器人所在的地图“edge”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="223" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qDxuMMK1ASLJ5tELzvt4-11" target="qDxuMMK1ASLJ5tELzvt4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qDxuMMK1ASLJ5tELzvt4-11" target="qDxuMMK1ASLJ5tELzvt4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-11" value="function1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="190.5" y="327.5" width="112.5" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qDxuMMK1ASLJ5tELzvt4-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-13" value="&lt;div&gt;1.检查机器人之间的距离足够小时进入stop&lt;/div&gt;&lt;div&gt;2，判断咋5m范围内是否存在轨迹冲突&lt;/div&gt;&lt;div&gt;3，存在冲突调用多机调度算法&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="300" width="120" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-19" value="true" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="294" width="30" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="qDxuMMK1ASLJ5tELzvt4-21" value="false" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="410" width="30" height="46" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

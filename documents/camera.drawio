@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-24T11:56:19.579Z" agent="5.0 (X11)" etag="uvSeuBT5tpRKw8CIr3ZI" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-24T11:58:50.627Z" agent="5.0 (X11)" etag="9cFQCFrB0rhObuGYtCqY" version="15.2.9" type="github">
   <diagram id="RGWBfU-PO1K_eORvRJbW" name="Page-1">
     <mxGraphModel dx="823" dy="632" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,6 +69,9 @@
         </mxCell>
         <mxCell id="ittZsM3rqx42YdA5RkF8-28" value="&lt;div&gt;O_2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="604" y="227" width="32" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="ittZsM3rqx42YdA5RkF8-29" value="&lt;div align=&quot;justify&quot;&gt;在图像像素坐标系下建立以物理单位（以下均假设为mm）表示的坐标系，&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;使像素尺度具有物理意义。 原点：主点（相机光轴与图像平面的交点，一般位于图像平面中心，&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;即图中O_2点）&amp;nbsp;&lt;br&gt; 单位：mm/像素&amp;nbsp;&lt;br&gt; 横轴x轴：与像素坐标系下的u轴平行&amp;nbsp;&lt;br&gt; 纵轴y轴：与像素坐标系下的v轴平行&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="27" y="170" width="517" height="88" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

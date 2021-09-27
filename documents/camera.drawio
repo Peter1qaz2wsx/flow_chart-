@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T09:51:11.912Z" agent="5.0 (X11)" etag="Kzju17V5He6YaBmpleh1" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T09:51:59.116Z" agent="5.0 (X11)" etag="cCB7wBzv0PnS_gu1vOH2" version="15.2.9" type="github">
   <diagram id="RGWBfU-PO1K_eORvRJbW" name="Page-1">
     <mxGraphModel dx="1055" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="71" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ittZsM3rqx42YdA5RkF8-4" value="&lt;font style=&quot;font-size: 20px&quot;&gt;世界坐标&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="73" y="843" width="120" height="60" as="geometry" />
+          <mxGeometry x="61" y="1083" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ittZsM3rqx42YdA5RkF8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ittZsM3rqx42YdA5RkF8-5" target="ittZsM3rqx42YdA5RkF8-3">
           <mxGeometry relative="1" as="geometry" />
@@ -84,6 +84,9 @@
         </mxCell>
         <mxCell id="ittZsM3rqx42YdA5RkF8-33" value="&lt;p style=&quot;font-size: 15px&quot; align=&quot;justify&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;图中：xy平面为图像平面&lt;/font&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 15px&quot; align=&quot;justify&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;原点：摄像机光心O点&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 15px&quot; align=&quot;justify&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt; Xc轴：与图像坐标系x轴平行&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 15px&quot; align=&quot;justify&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt; Yc轴：与图像坐标系y轴平行&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 15px&quot; align=&quot;justify&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt; Zc轴：摄像机光轴，与图像平面垂直&amp;nbsp;&lt;br&gt; &lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 15px&quot; align=&quot;justify&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;OO1=f（焦距）&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="265" y="546" width="255" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="ittZsM3rqx42YdA5RkF8-34" value="&lt;font style=&quot;font-size: 16px&quot;&gt;图像物理坐标系和相机坐标系的转换关系：&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="19" y="758" width="314" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

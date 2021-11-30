@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-30T11:38:21.733Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="ko-QtRAxx8Ksf6Njlirj" version="15.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-30T11:54:02.571Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="uLalYxW0MSa4aXP3i8R5" version="15.8.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2177" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -478,38 +478,41 @@
         <mxCell id="z4itV2_sYvm4ybOh6lHU-0" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;主要功能：IMU预积分，计算了雅克比矩阵，增加位姿的变换&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;协方差矩阵&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;考虑了相机时间和imu时间没有对齐的问题，使用简单的插值&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-355" y="145" width="340" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="z4itV2_sYvm4ybOh6lHU-1" target="jODT9jMLzs31TshHW68C-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="z4itV2_sYvm4ybOh6lHU-1" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;PredictStateIMU()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-760" y="1060" width="150" height="60" as="geometry" />
+          <mxGeometry x="-510" y="1140" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z4itV2_sYvm4ybOh6lHU-2" value="更新imu预测的当前的位姿，速度，bias&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-540" y="1080" width="220" height="20" as="geometry" />
+          <mxGeometry x="-295" y="1160" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="z4itV2_sYvm4ybOh6lHU-3" value="&lt;font style=&quot;font-size: 20px&quot;&gt;双目初始化函数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-770" y="1180" width="160" height="20" as="geometry" />
+          <mxGeometry x="-790" y="2036" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="z4itV2_sYvm4ybOh6lHU-4" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;StereoInitialization()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=20;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-535" y="1169" width="210" height="60" as="geometry" />
+          <mxGeometry x="-555" y="2025" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z4itV2_sYvm4ybOh6lHU-5" value="&lt;font style=&quot;font-size: 20px&quot;&gt;跟踪函数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-790" y="1420" width="100" height="20" as="geometry" />
+          <mxGeometry x="-790" y="2130" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="z4itV2_sYvm4ybOh6lHU-6" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;TrackReferenceKeyFrame()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=20;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-555" y="1480" width="215" height="60" as="geometry" />
+          <mxGeometry x="-565" y="2200" width="215" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z4itV2_sYvm4ybOh6lHU-7" value="&lt;font style=&quot;font-size: 14px&quot;&gt;通过参考关键帧跟踪当前帧&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-300" y="1500" width="180" height="30" as="geometry" />
+          <mxGeometry x="-310" y="2220" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z4itV2_sYvm4ybOh6lHU-9" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;TrackWithMotionModel()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-550" y="1630" width="210" height="60" as="geometry" />
+          <mxGeometry x="-560" y="2350" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z4itV2_sYvm4ybOh6lHU-10" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;TrackLocalMap()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-555" y="1770" width="205" height="60" as="geometry" />
+          <mxGeometry x="-565" y="2490" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z4itV2_sYvm4ybOh6lHU-11" value="通过运动模型跟踪当前帧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-300" y="1660" width="170" height="20" as="geometry" />
+          <mxGeometry x="-310" y="2380" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="z4itV2_sYvm4ybOh6lHU-12" value="通过局部地图跟踪当前帧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-295" y="1790" width="170" height="20" as="geometry" />
+          <mxGeometry x="-305" y="2510" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="z4itV2_sYvm4ybOh6lHU-13" value="&lt;font style=&quot;font-size: 20px&quot;&gt;关键帧相关函数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-820" y="3620" width="160" height="20" as="geometry" />
@@ -594,6 +597,72 @@
         </mxCell>
         <mxCell id="jODT9jMLzs31TshHW68C-24" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;    &lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;mCurrentFrame.mpImuPreintegratedFrame = pImuPreintegratedFromLastFrame;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;    &lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;mCurrentFrame.mpImuPreintegrated = mpImuPreintegratedFromLastKF;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;    &lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;mCurrentFrame.mpLastKeyFrame = mpLastKeyFrame;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;更新当前帧预积分的信息，对于上一个关键帧预积分的结果，更新上一个关键帧信息&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-360" y="1000" width="610" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jODT9jMLzs31TshHW68C-25" target="jODT9jMLzs31TshHW68C-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jODT9jMLzs31TshHW68C-25" target="jODT9jMLzs31TshHW68C-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-25" value="&lt;span&gt;存在前一帧&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-475" y="1270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-27" value="&lt;div style=&quot;text-align: justify ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;mCurrentFrame.mpPrevFrame&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;因为需要根据前一阵，加上当前的积分才能&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;得到当前的位姿&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-368" y="1290" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-28" value="return false" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-655" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-30" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-525" y="1280" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-33" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-470" y="1370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jODT9jMLzs31TshHW68C-34" target="jODT9jMLzs31TshHW68C-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jODT9jMLzs31TshHW68C-34" target="jODT9jMLzs31TshHW68C-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jODT9jMLzs31TshHW68C-34" target="jODT9jMLzs31TshHW68C-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-34" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-475" y="1430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jODT9jMLzs31TshHW68C-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-278" y="1470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-278" y="1460" />
+              <mxPoint x="-278" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-36" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div style=&quot;text-align: justify ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;mbMapUpdated &amp;amp;&amp;amp; mpLastKeyFrame&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;关键帧存在并且地图刚跟新，&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;这里地图更新表示刚优化关键帧的位姿&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-413" y="1370" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-37" value="通过上一帧的位姿更新当前帧的预积分的值" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-495" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-42" value="通过关键帧位姿更新当前帧中imu、&lt;br&gt;预积分的值" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-213" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-46" value="关键帧没有更新&lt;br&gt;!mbMapUpdated" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-430" y="1535" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-47" value="预积分失败&lt;br&gt;return false" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-655" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-49" value="ELSE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-515" y="1440" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-50" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;        &lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;const cv::Mat twb1 = mpLastKeyFrame-&amp;gt;GetImuPosition();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;        &lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;const cv::Mat Rwb1 = mpLastKeyFrame-&amp;gt;GetImuRotation();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;        &lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;const cv::Mat Vwb1 = mpLastKeyFrame-&amp;gt;GetVelocity();&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-310" y="1505" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-51" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;const cv::Mat twb1 = mLastFrame.GetImuPosition();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;        &lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;const cv::Mat Rwb1 = mLastFrame.GetImuRotation();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;        &lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;const cv::Mat Vwb1 = mLastFrame.mVw;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-635" y="1670" width="430" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

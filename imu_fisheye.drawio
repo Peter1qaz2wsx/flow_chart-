@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-30T10:30:51.873Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="32zJGMsGcP3fKGkKqvw0" version="15.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-30T10:41:58.059Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="nDKouZiVZWLasjW6f0th" version="15.8.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1125" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,6 +33,9 @@
         </mxCell>
         <mxCell id="GGLkbrjlZim7dI6dOB1Z-9" value="视觉数据处理线程" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=20;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GGLkbrjlZim7dI6dOB1Z-10" value="&lt;div style=&quot;text-align: justify ; font-size: 12px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;pImuPreintegrated = new IMU::Preintegrated(IMU::Bias(),*mpImuCalib);&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;// 每一次处理图像时会重新启动一个imu预积分的容器。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;在跟踪完成之后，这个容器是给下一次imu的数据预积分时使用的。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;所以，可以在这里对于Imu的预积分信息不是单纯的初始化，而是查看时间戳的信息，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;如果当前预积分imu的时间戳超过当前图像时间戳，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;这里可以预积分一部分超过的imu数据。同时在这个可以对临时保存的imu信息进行管理&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="165" y="445" width="470" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

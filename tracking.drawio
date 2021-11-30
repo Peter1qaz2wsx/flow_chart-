@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-30T03:21:39.986Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="7Z7W62WdevbKYx9z4Wkb" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-30T11:38:21.733Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="ko-QtRAxx8Ksf6Njlirj" version="15.8.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2177" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -466,7 +466,7 @@
         <mxCell id="UNYbB4u9IFYit2vETT7b-1" value="imu预积分相关的函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-780" y="90" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UNYbB4u9IFYit2vETT7b-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UNYbB4u9IFYit2vETT7b-6" target="UNYbB4u9IFYit2vETT7b-9" edge="1">
+        <mxCell id="jODT9jMLzs31TshHW68C-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UNYbB4u9IFYit2vETT7b-6" target="jODT9jMLzs31TshHW68C-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UNYbB4u9IFYit2vETT7b-6" value="&lt;span style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;PreintegrateIMU()&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -475,59 +475,125 @@
         <mxCell id="UNYbB4u9IFYit2vETT7b-8" value="&lt;span style=&quot;font-size: 14px&quot;&gt;预积分IMU数据&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-665" y="150" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UNYbB4u9IFYit2vETT7b-9" value="" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-495" y="275" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="z4itV2_sYvm4ybOh6lHU-0" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;主要功能：IMU预积分，计算了雅克比矩阵，增加位姿的变换&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;协方差矩阵&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;考虑了相机时间和imu时间没有对齐的问题，使用简单的插值&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="z4itV2_sYvm4ybOh6lHU-0" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;主要功能：IMU预积分，计算了雅克比矩阵，增加位姿的变换&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;协方差矩阵&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;考虑了相机时间和imu时间没有对齐的问题，使用简单的插值&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-355" y="145" width="340" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="z4itV2_sYvm4ybOh6lHU-1" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;PredictStateIMU()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-740" y="520" width="150" height="60" as="geometry" />
+        <mxCell id="z4itV2_sYvm4ybOh6lHU-1" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;PredictStateIMU()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-760" y="1060" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z4itV2_sYvm4ybOh6lHU-2" value="更新imu预测的当前的位姿，速度，bias&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-510" y="540" width="220" height="20" as="geometry" />
+        <mxCell id="z4itV2_sYvm4ybOh6lHU-2" value="更新imu预测的当前的位姿，速度，bias&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-540" y="1080" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="z4itV2_sYvm4ybOh6lHU-3" value="&lt;font style=&quot;font-size: 20px&quot;&gt;双目初始化函数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-780" y="810" width="160" height="20" as="geometry" />
+        <mxCell id="z4itV2_sYvm4ybOh6lHU-3" value="&lt;font style=&quot;font-size: 20px&quot;&gt;双目初始化函数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-770" y="1180" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="z4itV2_sYvm4ybOh6lHU-4" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;StereoInitialization()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=20;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-490" y="820" width="210" height="60" as="geometry" />
+        <mxCell id="z4itV2_sYvm4ybOh6lHU-4" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;StereoInitialization()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=20;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-535" y="1169" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z4itV2_sYvm4ybOh6lHU-5" value="&lt;font style=&quot;font-size: 20px&quot;&gt;跟踪函数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="z4itV2_sYvm4ybOh6lHU-5" value="&lt;font style=&quot;font-size: 20px&quot;&gt;跟踪函数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-790" y="1420" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="z4itV2_sYvm4ybOh6lHU-6" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;TrackReferenceKeyFrame()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=20;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="z4itV2_sYvm4ybOh6lHU-6" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;TrackReferenceKeyFrame()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=20;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-555" y="1480" width="215" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z4itV2_sYvm4ybOh6lHU-7" value="&lt;font style=&quot;font-size: 14px&quot;&gt;通过参考关键帧跟踪当前帧&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="z4itV2_sYvm4ybOh6lHU-7" value="&lt;font style=&quot;font-size: 14px&quot;&gt;通过参考关键帧跟踪当前帧&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-300" y="1500" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="z4itV2_sYvm4ybOh6lHU-9" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;TrackWithMotionModel()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="z4itV2_sYvm4ybOh6lHU-9" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;TrackWithMotionModel()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-550" y="1630" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z4itV2_sYvm4ybOh6lHU-10" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;TrackLocalMap()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="z4itV2_sYvm4ybOh6lHU-10" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;TrackLocalMap()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-555" y="1770" width="205" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z4itV2_sYvm4ybOh6lHU-11" value="通过运动模型跟踪当前帧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="z4itV2_sYvm4ybOh6lHU-11" value="通过运动模型跟踪当前帧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-300" y="1660" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="z4itV2_sYvm4ybOh6lHU-12" value="通过局部地图跟踪当前帧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="z4itV2_sYvm4ybOh6lHU-12" value="通过局部地图跟踪当前帧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-295" y="1790" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="z4itV2_sYvm4ybOh6lHU-13" value="&lt;font style=&quot;font-size: 20px&quot;&gt;关键帧相关函数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="z4itV2_sYvm4ybOh6lHU-13" value="&lt;font style=&quot;font-size: 20px&quot;&gt;关键帧相关函数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-820" y="3620" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="z4itV2_sYvm4ybOh6lHU-14" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;NeedNewKeyFrame()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=20;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="z4itV2_sYvm4ybOh6lHU-14" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;NeedNewKeyFrame()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=20;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-620" y="3660" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="z4itV2_sYvm4ybOh6lHU-15" value="&lt;font style=&quot;font-size: 14px&quot;&gt;判断是否需要在当前的地图下增加关键帧&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="z4itV2_sYvm4ybOh6lHU-15" value="&lt;font style=&quot;font-size: 14px&quot;&gt;判断是否需要在当前的地图下增加关键帧&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-358" y="3680" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="z4itV2_sYvm4ybOh6lHU-16" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;CreateNewKeyFrame()&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=20;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="z4itV2_sYvm4ybOh6lHU-16" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;CreateNewKeyFrame()&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=20;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-620" y="3870" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="z4itV2_sYvm4ybOh6lHU-17" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;当判断需要关键帧时，根据当前帧创建关键帧，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;并且在地图中插入关键帧&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="z4itV2_sYvm4ybOh6lHU-17" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;当判断需要关键帧时，根据当前帧创建关键帧，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;并且在地图中插入关键帧&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-350" y="3880" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jODT9jMLzs31TshHW68C-0" target="jODT9jMLzs31TshHW68C-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jODT9jMLzs31TshHW68C-0" target="jODT9jMLzs31TshHW68C-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-0" value="&lt;font style=&quot;font-size: 12px&quot;&gt;存在前一帧&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-475" y="265" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-2" value="&lt;div style=&quot;text-align: justify ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;mCurrentFrame.mpPrevFrame&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;因为需要根据前一阵，加上当前的积分才能&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;得到当前的位姿&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-385" y="280" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jODT9jMLzs31TshHW68C-3" target="jODT9jMLzs31TshHW68C-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-3" value="&lt;span style=&quot;font-size: 12px&quot;&gt;保存imu数据的容器初始化&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-495" y="435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-5" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-470" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-6" value="&lt;font style=&quot;font-size: 12px&quot;&gt;设置开始预积分标志&lt;br&gt;return&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-655" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-8" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-515" y="280" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-9" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;    &lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;mvImuFromLastFrame.clear();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;    &lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;mvImuFromLastFrame.reserve(mlQueueImuData.size());&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;清空从上一帧到当前帧之间的imu数据容器&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-373" y="435" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jODT9jMLzs31TshHW68C-11" target="jODT9jMLzs31TshHW68C-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jODT9jMLzs31TshHW68C-11" target="jODT9jMLzs31TshHW68C-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-11" value="&lt;font style=&quot;font-size: 12px&quot;&gt;有新的imu数据&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-475" y="565" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-14" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-555" y="570" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jODT9jMLzs31TshHW68C-15" target="jODT9jMLzs31TshHW68C-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-15" value="&lt;font style=&quot;font-size: 12px&quot;&gt;向容器中加入imu数据&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-495" y="735" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-17" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-470" y="670" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-18" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px&quot;&gt;mvImuFromLastFrame 容器中加入imu数据&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;m-&amp;gt;t&amp;lt;mCurrentFrame.mpPrevFrame-&amp;gt;mTimeStamp-0.001l&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;m-&amp;gt;t&amp;lt;mCurrentFrame.mTimeStamp-0.001l&lt;/div&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;对数据进行裁剪，起始数据时间大于上一帧的时间戳减0.001s&lt;/div&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;同时把时间戳小于当前帧减0.001s的数据从初始的imu数据容器中删除&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-350" y="700" width="460" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jODT9jMLzs31TshHW68C-19" target="jODT9jMLzs31TshHW68C-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-19" value="&lt;font style=&quot;font-size: 12px&quot;&gt;遍历容器中的imu数据并且进行预积分处理&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-495" y="875" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-21" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;mpImuPreintegratedFromLastKF-&amp;gt;IntegrateNewMeasurement(acc,angVel,tstep);&lt;/div&gt;&lt;/div&gt;&lt;span style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;pImuPreintegratedFromLastFrame&lt;/span&gt;&lt;span&gt;-&amp;gt;&lt;/span&gt;&lt;span&gt;IntegrateNewMeasurement&lt;/span&gt;&lt;span&gt;(acc,angVel,tstep);&lt;/span&gt;&lt;/div&gt;        &lt;/span&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;droid sans mono, monospace, monospace, droid sans fallback&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;主要过程首先是针对imu不同时间戳下的数据插值计算加速度，角速度，时间间隔，然后迭代的进行预积分&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-379" y="880" width="670" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-22" value="&lt;font style=&quot;font-size: 12px&quot;&gt;更新当前帧的预积分信息&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-495" y="1015" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jODT9jMLzs31TshHW68C-24" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;    &lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;mCurrentFrame.mpImuPreintegratedFrame = pImuPreintegratedFromLastFrame;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;    &lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;mCurrentFrame.mpImuPreintegrated = mpImuPreintegratedFromLastKF;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;    &lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;mCurrentFrame.mpLastKeyFrame = mpLastKeyFrame;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;更新当前帧预积分的信息，对于上一个关键帧预积分的结果，更新上一个关键帧信息&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-360" y="1000" width="610" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

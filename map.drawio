@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T02:10:49.868Z" agent="5.0 (X11)" version="18.0.3" etag="fF9DrBtOH1lzbv9pb56A" type="github"><diagram id="mo0UgRs39pfBJl3zhVxP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-13T03:04:31.570Z" agent="5.0 (X11)" etag="Pyn0zmYVxKkTlCMfGGsW" version="18.0.3" type="github">
+  <diagram id="mo0UgRs39pfBJl3zhVxP" name="Page-1">
+    <mxGraphModel dx="1754" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7cWHdulKK1cfmPvB8S7S-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;关键帧&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7cWHdulKK1cfmPvB8S7S-3" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7cWHdulKK1cfmPvB8S7S-4" value="&lt;div align=&quot;justify&quot;&gt;tracking线程判断产生&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;关键帧&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="120" width="220" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T11:54:05.393Z" agent="5.0 (X11)" etag="n3wQvbc9kY9y-x50aKb8" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-25T12:00:23.225Z" agent="5.0 (X11)" etag="2z6INcpfXTYi8V90ZSSR" version="18.0.3" type="github">
   <diagram id="mo0UgRs39pfBJl3zhVxP" name="Page-1">
-    <mxGraphModel dx="2400" dy="1109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2658" dy="1293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,8 +67,8 @@
         <mxCell id="BQx2eCJ182XsFvpQ0JTU-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="BQx2eCJ182XsFvpQ0JTU-24" target="BQx2eCJ182XsFvpQ0JTU-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BQx2eCJ182XsFvpQ0JTU-24" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;插入地图中&lt;/font&gt;（local map）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="BQx2eCJ182XsFvpQ0JTU-24" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;插入地图中&lt;/font&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;（local map）&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="170" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BQx2eCJ182XsFvpQ0JTU-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="BQx2eCJ182XsFvpQ0JTU-27" target="BQx2eCJ182XsFvpQ0JTU-28">
           <mxGeometry relative="1" as="geometry" />
@@ -97,7 +97,12 @@
         <mxCell id="BQx2eCJ182XsFvpQ0JTU-33" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;边缘化的是关键帧&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="492.5" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="BQx2eCJ182XsFvpQ0JTU-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="BQx2eCJ182XsFvpQ0JTU-35" target="BQx2eCJ182XsFvpQ0JTU-46">
+        <mxCell id="BQx2eCJ182XsFvpQ0JTU-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" target="BQx2eCJ182XsFvpQ0JTU-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="102.5" y="581.8557142857143" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQx2eCJ182XsFvpQ0JTU-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="BQx2eCJ182XsFvpQ0JTU-35" target="BQx2eCJ182XsFvpQ0JTU-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BQx2eCJ182XsFvpQ0JTU-35" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;边缘化的关键帧插入全局地图&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -133,37 +138,45 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BQx2eCJ182XsFvpQ0JTU-46" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;检查关键帧是否冗余&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="82.5" y="523.25" width="120" height="60" as="geometry" />
+          <mxGeometry x="-115" y="551.82" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BQx2eCJ182XsFvpQ0JTU-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="BQx2eCJ182XsFvpQ0JTU-48" target="BQx2eCJ182XsFvpQ0JTU-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BQx2eCJ182XsFvpQ0JTU-48" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;是&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-97.5" y="513.25" width="80" height="80" as="geometry" />
+          <mxGeometry x="-295" y="541.82" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BQx2eCJ182XsFvpQ0JTU-50" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;删除冗余的关键帧和地图点&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="520.25" width="132.5" height="66.75" as="geometry" />
+          <mxGeometry x="-487.5" y="548.82" width="132.5" height="66.75" as="geometry" />
         </mxCell>
         <mxCell id="BQx2eCJ182XsFvpQ0JTU-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="BQx2eCJ182XsFvpQ0JTU-54" target="BQx2eCJ182XsFvpQ0JTU-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BQx2eCJ182XsFvpQ0JTU-54" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;否&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="102.5" y="653.25" width="80" height="80" as="geometry" />
+          <mxGeometry x="-95" y="681.82" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BQx2eCJ182XsFvpQ0JTU-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="BQx2eCJ182XsFvpQ0JTU-56" target="BQx2eCJ182XsFvpQ0JTU-58">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BQx2eCJ182XsFvpQ0JTU-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="BQx2eCJ182XsFvpQ0JTU-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-55" y="981.82" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="BQx2eCJ182XsFvpQ0JTU-56" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;闭环检测&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="82.5" y="823.25" width="120" height="60" as="geometry" />
+          <mxGeometry x="-115" y="851.82" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BQx2eCJ182XsFvpQ0JTU-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="BQx2eCJ182XsFvpQ0JTU-58" target="BQx2eCJ182XsFvpQ0JTU-60">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BQx2eCJ182XsFvpQ0JTU-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="1021.82" as="sourcePoint" />
+            <mxPoint x="45" y="1021.82" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="BQx2eCJ182XsFvpQ0JTU-58" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;存在闭环&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="102.5" y="953.25" width="80" height="80" as="geometry" />
+          <mxGeometry x="-95" y="980" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BQx2eCJ182XsFvpQ0JTU-60" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;全局位姿优化&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="242.5" y="963.25" width="120" height="60" as="geometry" />
+          <mxGeometry x="45" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQx2eCJ182XsFvpQ0JTU-62" value="global map" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="100" y="549" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

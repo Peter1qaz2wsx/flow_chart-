@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T09:26:54.958Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="zgk_L4S0U9XE2MVz0Igj" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-30T12:17:41.823Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="KgSXOb1fi323PK1M9uRL" version="16.0.3" type="github">
   <diagram id="DrSU8RwG7iBjyivC3MW1" name="Page-1">
     <mxGraphModel dx="1020" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,8 +31,38 @@
         <mxCell id="PKxQbHvX63fxbK549Yqt-7" value="处理图像帧&lt;span style=&quot;color: rgb(0 , 16 , 128) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #795e26&quot;&gt;addFrameBundle&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PKxQbHvX63fxbK549Yqt-9" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PKxQbHvX63fxbK549Yqt-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PKxQbHvX63fxbK549Yqt-9" target="PKxQbHvX63fxbK549Yqt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PKxQbHvX63fxbK549Yqt-9" value="获取运动优先项，指的是imu测量的旋转分量&lt;span style=&quot;color: rgb(0 , 16 , 128) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px&quot;&gt;T_prior_&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PKxQbHvX63fxbK549Yqt-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PKxQbHvX63fxbK549Yqt-11" target="PKxQbHvX63fxbK549Yqt-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PKxQbHvX63fxbK549Yqt-11" value="执行tracking过程&lt;br&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #795e26&quot;&gt;processFrameBundle&lt;/span&gt;()&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="730" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PKxQbHvX63fxbK549Yqt-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PKxQbHvX63fxbK549Yqt-15" target="PKxQbHvX63fxbK549Yqt-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PKxQbHvX63fxbK549Yqt-15" value="需要后端优化" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="905" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PKxQbHvX63fxbK549Yqt-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PKxQbHvX63fxbK549Yqt-17" target="PKxQbHvX63fxbK549Yqt-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PKxQbHvX63fxbK549Yqt-17" value="执行BA滑动窗口优化" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1075" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PKxQbHvX63fxbK549Yqt-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PKxQbHvX63fxbK549Yqt-21" target="PKxQbHvX63fxbK549Yqt-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PKxQbHvX63fxbK549Yqt-21" value="产生了关键帧" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1205" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PKxQbHvX63fxbK549Yqt-23" value="地图中插入关键帧并且进行闭环检测" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1375" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
